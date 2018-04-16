@@ -1,0 +1,7 @@
+<h1>Genre index </h1>
+
+<% @genres.each do |genre| %>
+      <h3>Name: <%= genre.name %></h3>
+      <p>Description: <%= genre.description %></p>
+      <br>
+<% end %>
