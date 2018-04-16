@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   end
   
   resources :genres
+
+  get 'songs/:song_id' => 'songs#show'
 end

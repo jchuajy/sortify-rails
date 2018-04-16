@@ -1,0 +1,10 @@
+<h1> Show Song </h1>
+
+Title: <%= @song.name%>
+
+<br>
+
+Genres: 
+<% @song.genres.each do |genre|%>
+     <p><%= genre.name %></p>
+<% end %>
