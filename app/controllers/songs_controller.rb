@@ -1,4 +1,10 @@
 class SongsController < ApplicationController
+
+      def initialize
+            @songs = Song.all
+            @genres = Genre.all
+      end
+      
       def index
             
       end
